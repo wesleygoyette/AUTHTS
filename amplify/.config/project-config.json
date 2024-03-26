@@ -2,7 +2,7 @@
   "providers": [
     "awscloudformation"
   ],
-  "projectName": "AUTHTS",
+  "projectName": "test",
   "version": "3.1",
   "frontend": "javascript",
   "javascript": {
