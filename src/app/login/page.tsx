@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { fetchAuthSession, signIn } from "@aws-amplify/auth";
+import { fetchAuthSession, signIn, confirmSignIn } from "@aws-amplify/auth";
 import { useRouter } from "next/navigation";
 import { Amplify } from "aws-amplify";
 import awsconfig from '@/aws-exports';
